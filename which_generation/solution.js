@@ -27,7 +27,7 @@
 
 function generation(x, y) {
     let output;
-	if (x === "f" && y === -3) {
+	if (y === "f" && x === -3) {
         output = "great grandmother"
     } else if (y === "f" && x === -2 ) {
         output ="grandmother"
