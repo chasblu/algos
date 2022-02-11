@@ -17,3 +17,8 @@ function addName(obj, name, value) {
     }
     return Object.assign(obj, newObject);
 }
+
+function addName (obj, name, value) {
+    obj[name] = value;
+    return obj;
+  };
